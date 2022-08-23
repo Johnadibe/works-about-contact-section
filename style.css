@@ -353,3 +353,22 @@ hr {
     border: 1px solid #f55800;
     color: #f55800;
 }
+
+.footer-social-icons {
+    width: 100%;
+    border-top: 1px solid #DFE1E6;
+    padding-top: 2.3rem;
+    padding-bottom: 3.4rem;
+}
+
+.social-icons-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
