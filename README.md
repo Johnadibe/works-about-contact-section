@@ -34,7 +34,7 @@ to use the project To do list please follow :
 
 > Syntax:
 
-$ git clone {https://github.com/Johnadibe/works-about-section.git}
+$ git clone {https://github.com/Johnadibe/works-about-contact-section.git}
 
 ### Usage
 
