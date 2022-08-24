@@ -101,7 +101,7 @@ body {
 }
 
 .art-printing {
-  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('img/Art\ printing.svg');
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('img/art-printing.svg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -267,4 +267,109 @@ hr {
   font-size: 2.2rem;
   line-height: 4.3rem;
   color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 12rem;
+  gap: 5.8rem;
+}
+
+.contact-heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-form {
+  margin-bottom: 12rem;
+}
+
+.contact-form,
+.contact-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.contact-group {
+  border: 0;
+}
+
+.contact-group input,
+.contact-group textarea {
+  width: 100%;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.contact-form input {
+  border-bottom: 1px solid #dbd8d7;
+  padding: 1.5rem 1.6rem;
+}
+
+.contact-form textarea {
+  height: 11.4rem;
+  background-color: #fbf8f7;
+  padding: 1.2rem 1.2rem;
+}
+
+.contact-group input:focus,
+.contact-group textarea:focus {
+  outline: none;
+}
+
+.contact-form textarea::placeholder {
+  color: #3c3a39;
+}
+
+.btn-form {
+  border: none;
+  padding: 1.2rem;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.footer-social-icons {
+  width: 100%;
+  border-top: 1px solid #dfe1e6;
+  padding-top: 2.3rem;
+  padding-bottom: 3.4rem;
+}
+
+.social-icons-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.social-icons a {
+  text-decoration: none;
 }
