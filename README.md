@@ -52,8 +52,11 @@ $ git clone {https://github.com/Johnadibe/works-about-section.git}
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-thanks:
+**Harrison Njuguna**
+
+- GitHub: [@githubhandle](@Harrynqs)
+- Twitter: [@twitterhandle](@nqsnoq1)
+- LinkedIn: [LinkedIn](Harrisonnjuguna)
 
 ## Show your support
 
